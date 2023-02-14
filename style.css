@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box ;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.header{
+    padding: 15px 0;
+    text-align: center;
+    line-height: 40px;
+
+    background-color: black;
+    color: white;
+}
+.questions{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+    padding-top: 30px;
+
+    background-color: antiquewhite;
+}
+.element{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 600px;
+    padding: 10px;
+    border: 2px solid #5624d0;
+    border-radius: 8px;
+}
+.option{
+    cursor: pointer;
+    margin-left: 8px;
+    border: 1px dashed #ccc ;
+    border-radius: 8px;
+    padding: 4px;
+}
+.option:hover{
+    background-color: #cec0fc;
+}
+
+.question-buttom{
+    width: 40%;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    
+    cursor: pointer;
+    background-color: #5624d0;
+}
+.question-buttom:hover{
+    background-color: #000;
+    color: #fff;
+}
+#resultado{
+    color: darkred;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Quiz Game</h1>
+        <p>Juego de capitales</p>
+    </header>
+
+    <form class="questions" name="questions">
+        <section class="element" >
+            <h3>1-. ¿Cuál es la capital de Colombia?</h3>
+            <label class="option">
+                <input type="radio" value="1" name="question1"> Medellin
+            </label>
+            <label class="option">
+                <input type="radio" value="2" name="question1"> Ciudad Colombia
+            </label>
+            <label class="option">
+                <input type="radio" value="3" name="question1"> Bogotá
+            </label>
+        </section>
+        <section class="element" >
+            <h3> 2-. ¿Cuál es la capital de Ecuador?</h3>
+            <label class="option">
+                <input type="radio" value="1" name="question2"> La paz
+            </label>
+            <label class="option">
+                <input type="radio" value="2" name="question2"> Quito
+            </label>
+            <label class="option">
+                <input type="radio" value="3" name="question2"> Caracas
+            </label>
+        </section>
+        <section class="element" >
+            <h3>3-. ¿Cuál es la capital de Brasil? </h3>
+            <label class="option">
+                <input type="radio" value="1" name="question3"> Rio de Janerio
+            </label>
+            <label class="option">
+                <input type="radio" value="2" name="question3"> Brasilia
+            </label>
+            <label class="option">
+                <input type="radio" value="3" name="question3"> Brucelas
+            </label>
+        </section>
+        <button class="question-buttom" type="submit">Comprobar</button>
+        <h2>Cantidad de aciertos: <span id="resultado"></span></h2>
+    </form>
+    <script src="./process.js"></script>
+</body>
+</html>
